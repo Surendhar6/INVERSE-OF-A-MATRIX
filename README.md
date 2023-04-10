@@ -14,10 +14,11 @@ Now give the comndition for inverse of the matrix.
 ### Step 4: 
 Execute the program.
 ## Program:
+```
 #Program to find the inverse of a matrix.
 #Developed by: Surendhar A
 #RegisterNumber: 212222110049
-```import numpy as np
+import numpy as np
 A=np.array([[2,1,1],[1,1,1],[1,-1,2]])
 inverse=np.linalg.inv(A)
 print(inverse)
